@@ -1,0 +1,187 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right top, #a7d9f7, #c1e4f7, #d9effa, #ecf7fd, #f7fdff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 48rem;
+    width: 100%;
+}
+
+.info-card {
+    padding: 1.75rem;
+    border-radius: 1rem;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.profile-pic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    border: 4px solid #a78bfa;
+    transition: transform 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.greeting-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #374151;
+    margin-top: 1.5rem;
+}
+
+.info-flex {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.card-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.card-text {
+    color: #374151;
+    font-size: 1.25rem;
+    line-height: 1.625;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-right: 0.75rem;
+}
+
+.name-card {
+    background: linear-gradient(to bottom right, #e0f2fe, #bfdbfe);
+    border: 1px solid #93c5fd;
+}
+
+.name-card .card-title {
+    color: #1d4ed8;
+}
+
+.name-card .card-icon {
+    color: #3b82f6;
+}
+
+.age-card {
+    background: linear-gradient(to bottom right, #dcfce7, #bbf7d0);
+    border: 1px solid #86efac;
+}
+
+.age-card .card-title {
+    color: #16a34a;
+}
+
+.age-card .card-icon {
+    color: #22c55e;
+}
+
+.hobbies-card {
+    background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);
+    border: 1px solid #d8b4fe;
+}
+
+.hobbies-card .card-title {
+    color: #7e22ce;
+}
+
+.hobbies-card .card-icon {
+    color: #a855f7;
+}
+
+.about-card {
+    background: linear-gradient(to bottom right, #fffbeb, #fef9c3);
+    border: 1px solid #fde047;
+}
+
+.about-card .card-title {
+    color: #b45309;
+}
+
+.about-card .card-icon {
+    color: #f59e0b;
+}
+
+.hobbies-list {
+    list-style: disc;
+    list-style-position: inside;
+    color: #374151;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+.list-item {
+    margin-bottom: 0.5rem;
+}
+
+.action-button-container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    border-top: 1px solid #b6b6b8;
+    padding-top: 2rem;
+}
+
+.action-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    text-decoration: none;
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+.send-message-button {
+    background-color: #4f46e5;
+    color: white;
+}
